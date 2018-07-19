@@ -37,4 +37,4 @@ For start project on development server use
 
 ## You new developer?
 
-[Introduction in project for new developer]()
+[Introduction in project for new developer](https://github.com/WebWorkDeveloper/front-end/wiki)
