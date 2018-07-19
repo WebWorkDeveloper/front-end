@@ -2,7 +2,8 @@
 
 This is ultimate build boilerplate 
 
-[![PackageManager](https://img.shields.io/badge/npm%3F-5.6.0-green.svg)](https://www.npmjs.com/) [![BuildSystem](https://img.shields.io/badge/gulp%3F-4.0.0-red.svg)](https://gulpjs.com/) [![BuildSystem](https://img.shields.io/badge/webpack%3F-4.0.0-blue.svg)](https://webpack.js.org/)
+[![PackageManager](https://img.shields.io/badge/npm-5.6.0-green.svg)](https://www.npmjs.com/)
+[![BuildSystem](https://img.shields.io/badge/gulp-4.0.0-red.svg)](https://gulpjs.com/) [![BuildSystem](https://img.shields.io/badge/webpack-4.0.0-blue.svg)](https://webpack.js.org/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ## Intro
 
