@@ -35,4 +35,6 @@ For start project on development server use
 
 `npm run local`
 
-## For new developer
+## You new developer?
+
+[Introduction in project for new developer]()
