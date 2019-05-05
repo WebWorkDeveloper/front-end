@@ -3,7 +3,8 @@
 This is ultimate build boilerplate 
 
 [![PackageManager](https://img.shields.io/badge/npm-5.6.0-green.svg)](https://www.npmjs.com/)
-[![BuildSystem](https://img.shields.io/badge/gulp-4.0.0-red.svg)](https://gulpjs.com/) [![BuildSystem](https://img.shields.io/badge/webpack-4.0.0-blue.svg)](https://webpack.js.org/) [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![BuildSystem](https://img.shields.io/badge/webpack-4.0.0-blue.svg)](https://webpack.js.org/)
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 ## Intro
 
@@ -17,7 +18,7 @@ Just clone this repository
 
 and install dependencies
 
-`npm install` or `npm uninstall -g yarn`
+`yarn`
 
 ## Commands
 
@@ -25,15 +26,45 @@ We can developing you projects in development or production mode
 
 For build your project on DEV use
 
-`npm run dev`
+`yarn dev`
 
-For build your project on PROD use
+For build your project for production use
 
-`npm run prod`
+`yarn prod`
 
 For start project on development server use
 
-`npm run local`
+`yarn start`
+
+## Subprojects
+
+Repo support subproject structure
+
+For add new subproject you can do:
+1. Add command for subproject in `package.json`
+
+```diff
+{
+  "scripts": {
+     ...
++     dev:<subproject name>: yarn dev --config-name=<subproject name>,
++     prod:<subproject name>: yarn prod --config-name=<subproject name>
+  }
+}
+```
+2. Add configuration with your changes in `webpack.config.js`
+
+```diff
+[
+  {
+    ...
+  },
++  {
++    "name":<subproject name>,
++    ...
++  }
+]
+```
 
 ## You new developer?
 
