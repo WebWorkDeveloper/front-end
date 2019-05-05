@@ -10,7 +10,7 @@ This is ultimate build boilerplate
 
 In this project we use components system, all files for component directed on one folder.
 
-## Installation
+## Setup
 
 Just clone this repository
 
@@ -48,14 +48,15 @@ For add new subproject you can do:
   "scripts": {
      ...
 +     dev:<subproject name>: yarn dev --config-name=<subproject name>,
-+     prod:<subproject name>: yarn prod --config-name=<subproject name>
++     prod:<subproject name>: yarn prod --config-name=<subproject name>,
++     start:<subproject name>: yarn start --config-name<subproject name>
   }
 }
 ```
 2. Add configuration with your changes in `webpack.config.js`
 
 ```diff
-[
+return [
   {
     ...
   },
